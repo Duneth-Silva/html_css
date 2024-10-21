@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grupo de Tags</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: dimgray;
+        }
+
+        header {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        nav {
+            background-color: brown;
+            padding: 3px;    
+            box-shadow: 1px 1px 1px black;        
+
+        }
+
+        nav > a{
+            text-decoration: none;
+            color:white;
+            font-weight: bold;
+            margin-right: 5px;
+        }
+
+        nav > a:hover{
+            text-decoration: underline;
+            color:blue;
+            
+            
+        }
+
+        main {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px;
+        }
+
+        article {
+            background-color: lightgray;
+
+        }
+
+        article > aside {
+            background-color: blueviolet;
+        }
+
+        footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 1px;
+            margin: 10px;
+
+        }
+        
+        footer > p {
+            margin: 0px;
+        }
+
+        div{
+            height: 200px;
+            width: 200px;
+            border-radius: 50%;
+            background-color: brown;
+            border: 3px solid black;
+            margin: auto;
+        }
+
+        div > p{
+            display: none;
+            color: white;
+            font-size: 1em;
+            font-weight: bold;
+            text-align: center;
+            padding-top: 80px;
+        }
+
+        div:hover {
+            background-color: palevioletred;
+            
+        }
+
+        div:hover > p {
+            display: block;
+            
+        }
+        
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu Site</h1>
+        <nav>
+            <a href="#">LINKA</a>
+            <a href="#">LINKB</a>
+            <a href="#">LINKC</a>
+            <a href="#">LINKD</a>
+            <a href="#">LINKE</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assunto">
+
+        </section>
+        <section id="noticia">
+            <article>
+                <h2>Noticia do Brasil</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, perspiciatis aspernatur atque voluptatibus provident impedit eligendi assumenda in voluptatum magnam praesentium veritatis labore quod alias vitae asperiores exercitationem, rem laborum.</p>
+                <aside>
+                    <p>Artigo escrito por josé da Silva</p>
+                </aside>
+            </article>
+            <article>
+                
+            </article>
+            <h6 style="text-align: center;">Passa o mouse na bola</h6>
+            <div>
+                
+                <p>PARABENS!!!</p>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido pelo curso em vídeo</p>
+    </footer>
+</body>
+</html>
